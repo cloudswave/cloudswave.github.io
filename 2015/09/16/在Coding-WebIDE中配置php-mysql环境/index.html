@@ -3,18 +3,36 @@
 <head>
   <meta charset="utf-8">
   
-  <title>coding WebIDE 安装hexo | EthanZhu的博客</title>
+  <title>在Coding WebIDE中配置php+mysql环境 | EthanZhu的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="待添加">
+  <meta name="description" content="WebIDE:数据库mysql默认密码：coding
+设置服务器访问权限修改配置apache配置文件：
+
+sudo vim /etc/apache2/apache2.conf   
+
+修改
+12345&amp;lt;Directory /&amp;gt;       Options FollowSymLinks       AllowOverride None       Require all granted">
 <meta property="og:type" content="article">
-<meta property="og:title" content="coding WebIDE 安装hexo">
-<meta property="og:url" content="http://yoursite.com/2015/09/15/coding-webIDE-安装hexo/index.html">
+<meta property="og:title" content="在Coding WebIDE中配置php+mysql环境">
+<meta property="og:url" content="http://yoursite.com/2015/09/16/在Coding-WebIDE中配置php-mysql环境/index.html">
 <meta property="og:site_name" content="EthanZhu的博客">
-<meta property="og:description" content="待添加">
-<meta property="og:updated_time" content="2015-09-15T13:33:11.038Z">
+<meta property="og:description" content="WebIDE:数据库mysql默认密码：coding
+设置服务器访问权限修改配置apache配置文件：
+
+sudo vim /etc/apache2/apache2.conf   
+
+修改
+12345&amp;lt;Directory /&amp;gt;       Options FollowSymLinks       AllowOverride None       Require all granted">
+<meta property="og:updated_time" content="2015-09-16T03:59:12.052Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="coding WebIDE 安装hexo">
-<meta name="twitter:description" content="待添加">
+<meta name="twitter:title" content="在Coding WebIDE中配置php+mysql环境">
+<meta name="twitter:description" content="WebIDE:数据库mysql默认密码：coding
+设置服务器访问权限修改配置apache配置文件：
+
+sudo vim /etc/apache2/apache2.conf   
+
+修改
+12345&amp;lt;Directory /&amp;gt;       Options FollowSymLinks       AllowOverride None       Require all granted">
   
     <link rel="alternative" href="/atom.xml" title="EthanZhu的博客" type="application/atom+xml">
   
@@ -31,7 +49,7 @@
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
 			
-			<img lazy-src="null" class="js-avatar">
+			<img lazy-src="/img/avatar.png" class="js-avatar">
 			
 		</a>
 
@@ -95,18 +113,20 @@
 				        
 							<li><a href="/archives">所有文章</a></li>
 				        
+							<li><a href="/tags/IT技术">随笔</a></li>
+				        
 						</ul>
 					</nav>
 					<nav class="header-nav">
 						<div class="social">
 							
-								<a class="github" target="_blank" href="/#" title="github">github</a>
+								<a class="github" target="_blank" href="http://cloudswave.github.com" title="github">github</a>
 					        
-								<a class="weibo" target="_blank" href="/#" title="weibo">weibo</a>
+								<a class="weibo" target="_blank" href="http://www.weibo.com/cloudswave" title="weibo">weibo</a>
 					        
 								<a class="rss" target="_blank" href="/#" title="rss">rss</a>
 					        
-								<a class="zhihu" target="_blank" href="/#" title="zhihu">zhihu</a>
+								<a class="zhihu" target="_blank" href="http://www.zhihu.com/people/ethan-zhu" title="zhihu">zhihu</a>
 					        
 						</div>
 					</nav>
@@ -115,7 +135,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/WebIDE-Hexo-Github-gitcafe/" style="font-size: 10px;">WebIDE Hexo Github gitcafe</a> <a href="/tags/测试-nodejs/" style="font-size: 10px;">测试 nodejs</a>
+						<a href="/tags/WebIDE/" style="font-size: 10px;">WebIDE</a> <a href="/tags/coding/" style="font-size: 10px;">coding</a> <a href="/tags/mysql/" style="font-size: 10px;">mysql</a> <a href="/tags/php/" style="font-size: 10px;">php</a> <a href="/tags/测试-nodejs/" style="font-size: 10px;">测试 nodejs</a>
 					</div>
 				</section>
 				
@@ -124,17 +144,7 @@
 				<section class="switch-part switch-part3">
 					<div id="js-friends">
 					
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">奥巴马的博客</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">卡卡的美丽传说</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">本泽马的博客</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">吉格斯的博客</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">习大大大不同</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">托蒂的博客</a>
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://ethanzhu.sinaapp.com/">朱小波的博客</a>
 			        
 			        </div>
 				</section>
@@ -161,7 +171,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img lazy-src="null" class="js-avatar">
+				<img lazy-src="/img/avatar.png" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author">Ethanzhu</h1>
@@ -176,30 +186,32 @@
 		        
 					<li><a href="/archives">所有文章</a></li>
 		        
+					<li><a href="/tags/IT技术">随笔</a></li>
+		        
 		        <div class="clearfix"></div>
 				</ul>
 			</nav>
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="/#" title="github">github</a>
+						<a class="github" target="_blank" href="http://cloudswave.github.com" title="github">github</a>
 			        
-						<a class="weibo" target="_blank" href="/#" title="weibo">weibo</a>
+						<a class="weibo" target="_blank" href="http://www.weibo.com/cloudswave" title="weibo">weibo</a>
 			        
 						<a class="rss" target="_blank" href="/#" title="rss">rss</a>
 			        
-						<a class="zhihu" target="_blank" href="/#" title="zhihu">zhihu</a>
+						<a class="zhihu" target="_blank" href="http://www.zhihu.com/people/ethan-zhu" title="zhihu">zhihu</a>
 			        
 				</div>
 			</nav>
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-coding-webIDE-安装hexo" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-在Coding-WebIDE中配置php-mysql环境" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/09/15/coding-webIDE-安装hexo/" class="article-date">
-  	<time datetime="2015-09-15T13:27:44.000Z" itemprop="datePublished">2015-09-15</time>
+      <a href="/2015/09/16/在Coding-WebIDE中配置php-mysql环境/" class="article-date">
+  	<time datetime="2015-09-16T03:56:25.000Z" itemprop="datePublished">2015-09-16</time>
 </a>
     </div>
   
@@ -212,7 +224,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      coding WebIDE 安装hexo
+      在Coding WebIDE中配置php+mysql环境
     </h1>
   
 
@@ -221,7 +233,7 @@
       <div class="article-info article-info-post">
         
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/WebIDE-Hexo-Github-gitcafe/">WebIDE Hexo Github gitcafe</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/WebIDE/">WebIDE</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mysql/">mysql</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li></ul>
 	</div>
 
         
@@ -232,7 +244,33 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>待添加</p>
+        <p>WebIDE:数据库mysql默认密码：coding</p>
+<p>设置服务器访问权限<br>修改配置apache配置文件：</p>
+<blockquote>
+<p>sudo vim /etc/apache2/apache2.conf   </p>
+</blockquote>
+<p>修改</p>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;Directory /&gt;</span> </span><br><span class="line">      <span class="keyword"><span class="common">Options</span></span> FollowSymLinks </span><br><span class="line">      <span class="keyword">AllowOverride</span> None </span><br><span class="line">      <span class="keyword">Require</span> <span class="literal">all</span> granted </span><br><span class="line"> <span class="tag">&lt;/Directory&gt;</span></span><br></pre></td></tr></table></figure>
+<p>修改Document路径               </p>
+<blockquote>
+<p>sudo vim /etc/apache2/sites-available/000-default.conf</p>
+</blockquote>
+<p>修改为</p>
+<blockquote>
+<p>/home/coding/workspace</p>
+</blockquote>
+<p>apache启动： </p>
+<blockquote>
+<p>sudo apache2ctl start<br>  sudo apache2ctl restart </p>
+</blockquote>
+<p>目录权限：</p>
+<blockquote>
+<p>chmod -R 777 /home/coding/workspace/*</p>
+</blockquote>
+<p>安装gd库：</p>
+<blockquote>
+<p>sudo apt-get install php5-gd<br>  sudo /etc/init.d/apache2 restart</p>
+</blockquote>
 
       
     </div>
@@ -241,6 +279,15 @@
   
     
 <nav id="article-nav">
+  
+    <a href="/2015/09/16/coding-webIDE-安装hexo/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
   
   
     <a href="/2015/09/15/my-new-post/" id="article-nav-older" class="article-nav-link-wrap">
@@ -273,7 +320,7 @@
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="coding-webIDE-安装hexo" data-title="coding WebIDE 安装hexo" data-url="http://yoursite.com/2015/09/15/coding-webIDE-安装hexo/"></div>
+	<div class="ds-thread" data-thread-key="在Coding-WebIDE中配置php-mysql环境" data-title="在Coding WebIDE中配置php+mysql环境" data-url="http://yoursite.com/2015/09/16/在Coding-WebIDE中配置php-mysql环境/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
